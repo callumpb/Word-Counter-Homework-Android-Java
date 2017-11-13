@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CountWords</string>
+    <string name="starting_value">0</string>
+    <string name="inputWords">Enter any sentence</string>
+    <string name="count">count the words</string>
+    <string name="countWords">count the words</string>
+</resources>
