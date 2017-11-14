@@ -1,5 +1,6 @@
 package com.example.user.countwords;
 
+import android.content.Intent;
 import android.renderscript.ScriptGroup;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -31,22 +32,24 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public int countWords(String input) {
-        if (input == null || input.isEmpty()) {
-            return 0;
-        }
+    //how do i java
 
-        String[] words = input.split("\\s+");
-        return words.length;
-    }
-
-
+    //public void blah(View view)
+    // if this method is grey, it means not hooked up
     public void onButtonClicked(View button) {
-        //
-        // this.countValue = this.countWords(???? button);
+        String text =  this.inputWords.getText().toString();
 
-        this.counter.setText(Integer.toString(this.countValue));
-        //return this.countWords(View view);
+        int countWords = Words.countWords(text);
+
+        String countWordsAsString = Integer.toString(countWords);
+
+        this.counter.setText(countWordsAsString);
+
+
+        // EditText.countWords().toString();
+        //int countWords = Words.countWords(text);
+       // TextView.setText(Integer.toString(countWords));
+        //this.counter.setText(Integer.toString(Words.countWords("text")));
     }
 
 
