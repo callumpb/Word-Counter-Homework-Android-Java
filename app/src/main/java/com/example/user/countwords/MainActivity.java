@@ -32,8 +32,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    //how do i java
-
     //public void blah(View view)
     // if this method is grey, it means not hooked up
     public void onButtonClicked(View button) {
