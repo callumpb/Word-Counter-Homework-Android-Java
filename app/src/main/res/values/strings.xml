@@ -4,4 +4,9 @@
     <string name="inputWords">Enter any sentence</string>
     <string name="count">count the words</string>
     <string name="countWords">count the words</string>
+    <string name="about">about</string>
+    <string name="settings">settings</string>
+    <string name="Feature">Feature coming soon</string>
+    <string name="feature">Feature coming soon</string>
+    <string name="Callum">My name is Callum</string>
 </resources>
